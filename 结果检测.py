@@ -3,7 +3,7 @@ import os,urllib2,time
 jieguo=[]
 def saveListToFile(file,list):
     """
-        将列表逐行写如文件中
+        jieguo
     :return:
     """
     s = '\n'.join(list)
