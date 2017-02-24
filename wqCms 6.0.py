@@ -2,7 +2,7 @@ import urllib2,os,time
 jieguo=[]
 def saveListToFile(file,list):
     """
-        将列表逐行写如文件中
+       baocun
     :return:
     """
     s = '\n'.join(list)
