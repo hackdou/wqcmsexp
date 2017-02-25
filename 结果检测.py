@@ -3,7 +3,7 @@ import os,urllib2,time
 jieguo=[]
 def saveListToFile(file,list):
     """
-        jieguo
+        
     :return:
     """
     s = '\n'.join(list)
@@ -13,7 +13,7 @@ def zhengli():
     fp=open("jieguo.txt", "r")
     alllines=fp.readlines()
     fp.close()
-for eachline in alllines:
+    for eachline in alllines:
         eachline=eachline.strip('\n')
         eachline=eachline.strip(' ')
         http_url=eachline
